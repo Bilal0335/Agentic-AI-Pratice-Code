@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "chainlit>=2.6.0",
     "completion>=0.1.2",
     "litellm>=1.73.6",
     "openai-agents>=0.1.0",
