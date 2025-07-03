@@ -7,7 +7,7 @@ import json
 # Load the environment variables from the .env file
 load_dotenv()
 
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+gemini_api_key = os.getenv("GEMINI_API_KEYS")
 
 # Check if the API key is present; if not, raise an error
 if not gemini_api_key:
